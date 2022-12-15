@@ -2,7 +2,7 @@
 <h1>This is the repository of mine solved exercises from fulstack's course by Helsinki University </h1>
 <h2>Part0</h2>
 <p>Contains some diagrams(in mermaid markdown) thats looks like that copied example:</p>
-<pre>
+
 ```mermaid
 sequenceDiagram
     participant dotcom
@@ -15,4 +15,4 @@ sequenceDiagram
     dotcom->>iframe: set mermaid data on iframe
     iframe->>iframe: render mermaid
 ```
-</pre>
+
