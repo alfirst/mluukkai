@@ -1,6 +1,6 @@
-# [FULLSTACKOPEN - Great Oportunity](https://fullstackopen.com/en/)
+# [FULLSTACKOPEN - Great Oportunity ! ! !](https://fullstackopen.com/en/)
 This is the repository of mine solved exercises from fulstack's course by Helsinki University 
-Part0 contains some diagrams(mermaid markdown) like that:
+Part0 contains some diagrams(in mermaid markdown) thats looks like that copied example:
 ```mermaid
 sequenceDiagram
     participant dotcom
