@@ -1,6 +1,7 @@
 # [FULLSTACKOPEN - Great Oportunity ! ! !](https://fullstackopen.com/en/)
-This is the repository of mine solved exercises from fulstack's course by Helsinki University 
-Part0 contains some diagrams(in mermaid markdown) thats looks like that copied example:
+<h1>This is the repository of mine solved exercises from fulstack's course by Helsinki University </h1>
+<h2>Part0</h2>
+<p>contains some diagrams(in mermaid markdown) thats looks like that copied example:</p>
 ```mermaid
 sequenceDiagram
     participant dotcom
