@@ -21,9 +21,9 @@ Server-->>Browser: favicon.ico (content-type text/html)
 
 note over Browser: Browser re-rendering page <br/> to show all notes from data.json
 
-note right of Browser: Some user by UI writes new note <br/> in "New Note" field. <br/> And hit button "Submit"
+note right of Browser: Some user by UI writes new note <br/> in "New Note" field. <br/> And hit button "Save"
 
-note over Browser: Browser run action<br/> on "Submit" button. <br/> Perfoming POST request 
+note over Browser: Browser run action<br/> on "Save" button. <br/> Perfoming POST request 
 
 Browser->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note (PAYLOAD note: New Note)
 
