@@ -13,8 +13,11 @@ Server-->>Browser: main.js (content-type application/javascript charset=UTF-8)
 
 note over Browser: Then Browser executes js-code <br/> where performed HTTP GET request <br/> to get local JSON resource <br/> (path exampleapp/data.json)
 
+Browser->>Server: HTTP GET https://studies.cs.helsinki.fi/favicon.ico
+Server-->>Browser: favicon.ico (content-type text/html)
+
 Browser->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-Server-->>Browser: data.json (content-type application/json charset=utf-8 date "Thu, 15 Dec 2022 14:02:24 GMT")
+Server-->>Browser: data.json (content-type application/json charset=utf-8 date "Tue, 27 Dec 2022 12:54:26 GMT")
 
 note over Browser: Browser re-rendering page <br/> to show all notes from data.json
 
